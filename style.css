@@ -50,3 +50,15 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.card-header {
+  color: black;
+}
+a:hover {
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+i.fab,
+i.fas,
+a {
+  color: cornflowerblue;
+}

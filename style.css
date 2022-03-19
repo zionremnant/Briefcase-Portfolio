@@ -50,6 +50,21 @@ img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.wrapper {
+  text-align: center;
+}
+.wrapper > h1 {
+  margin: 40px;
+  padding: 20px;
+  font-size: 2.5rem;
+}
+.wrapper > p {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  font-size: 1.5rem;
+}
 .card-header {
   color: black;
 }

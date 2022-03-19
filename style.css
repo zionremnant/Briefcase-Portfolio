@@ -68,6 +68,17 @@ img {
 .card-header {
   color: black;
 }
+.share > button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid white;
+  width: 130px;
+  margin: 5px;
+  background-color: darkblue;
+}
+.share > button > a {
+  color: rgb(red, green, blue);
+}
 a:hover {
   color: darkgoldenrod;
   text-decoration: none;
@@ -75,5 +86,7 @@ a:hover {
 i.fab,
 i.fas,
 a {
-  color: cornflowerblue;
+  color: white;
 }
+
+i.fa-en

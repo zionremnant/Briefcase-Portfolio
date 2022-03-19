@@ -1,186 +1,61 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="./reset.css">
-  <link rel="stylesheet" type="text/css" href="./style.css"/>
-  <title>My Portfolio</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.4/umd/popper.min.js"
+      integrity="sha512-+Tn2V/oN9O/kiaJg/1o5bETqyS35pMDJzkhkf8uvCzxmRox69AsWkSpBSMEGEe4EZp07Nunw712J3Xvh5Tti0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Zion's Portfolio</title>
+  </head>
 
-<body>
-  <!-- Header Section -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero"><h1>Zion Yang</h1></a>
-        </div>
-        <div class="nav-list">
-        <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#intro">Introduction</a></li>
-          <li><a href="#projects">Projects</a></li><li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-    </div>
-  </section>
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-    <h1>Hello,</h1>
-    <h1>My Name is</h1>
-    <h1>Zion</h1>
-    <a href="#projects" type="button" class="cta">Portfolio</a>
-  </div>
-  </div>
-  </section>
-   
-  <!-- Intro Section -->
-  <section id="intro">
-    <div class="intro container">
-      <div class="intro-top">
-        <h1 class="section-title">Introduction</h1>
-        <p>Strong support of your digital innovation for a long-lasting relationship.</p>
-      </div>
-      <div class="intro-bottom">
-        <div class="intro-item">
-          <div class="icon">
-          <img src="https://img.icons8.com/external-parzival-1997-flat-parzival-1997/64/000000/external-technology-digital-globalization-parzival-1997-flat-parzival-1997-1.png"/>
-        </div>
-        <h2>Values</h2>
-        <p>Pellentesque nec nam aliquam sem et tortor consequat.</p>
-        </div>
-        <div class="intro-item">
-          <div class="icon">
-          <img src="https://img.icons8.com/external-parzival-1997-flat-parzival-1997/64/000000/external-technology-digital-globalization-parzival-1997-flat-parzival-1997-1.png"/>
-        </div>
-        <h2>Front-End Development</h2>
-        <p>Pellentesque nec nam aliquam sem et tortor consequat.</p>
-        </div>   <div class="intro-item">
-          <div class="icon">
-          <img src="https://img.icons8.com/external-parzival-1997-flat-parzival-1997/64/000000/external-technology-digital-globalization-parzival-1997-flat-parzival-1997-1.png"/>
-        </div>
-        <h2>Back-End Development</h2>
-        <p>Pellentesque nec nam aliquam sem et tortor consequat.</p>
-        </div>   <div class="intro-item">
-          <div class="icon">
-          <img src="https://img.icons8.com/external-parzival-1997-flat-parzival-1997/64/000000/external-technology-digital-globalization-parzival-1997-flat-parzival-1997-1.png"/>
-        </div>
-        <h2>Project Management</h2>
-        <p>Pellentesque nec nam aliquam sem et tortor consequat.</p>
+  <body>
+    <!-- navbar bootstrap -->
+    <nav class="d-flex navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="./index.html">Zion Yang</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="./index.html">Home</a>
+          <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="./contact.html">Contact Me</a>
         </div>
       </div>
-    </div>
-  </section>
-   <!-- Projects Section -->
-   <section id="projects">
-     <div class="projects container">
-       <div class="project-header">
-         <h1 class="section-title">Projects</h1>
-       </div>
-       <div class="all-projects">
-         <div class="project-item">
-           <div class="project-info">
-             <h1>Project 1</h1>
-             <h2>Coming Soon!</h2>
-             <p>Quisque egestas diam in arcu cursus euismod quis viverra. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod.</p>
-           </div>
-           <div class="project-img">
-             <img src="./assets/images/meeting.jpg" alt="meeting">
-           </div>
-         </div><div class="project-item">
-          <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Coming Soon!</h2>
-            <p>Quisque egestas diam in arcu cursus euismod quis viverra. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod.</p>
-          </div>
-          <div class="project-img">
-            <img src="./assets/images/meeting.jpg" alt="meeting">
-          </div>
-        </div><div class="project-item">
-          <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>Coming Soon!</h2>
-            <p>Quisque egestas diam in arcu cursus euismod quis viverra. Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod.</p>
-          </div>
-          <div class="project-img">
-            <img src="./assets/images/meeting.jpg" alt="meeting">
-          </div>
-        </div>
-       </div>
-     </div>
-   </section>
-
-  <!-- About Section --> 
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./assets/images/avatar.png" alt="avatar">
-        </div>
-        </div>
-        <div class="col-right">
-          <h1 class="section-title">About</h1>
-          <h2>Full Stack Developer</h2>
-          <p>A Soon-To-Be Full Stack Developer based in Los Angeles, California.</p>
-          <a href="./OPResumeZionYang.pdf" class="cta">Resume</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-   <!-- Contact Section --> 
-   <section id="contact">
-     <div class="contact container">
-       <div><h1 class="section-title">Contact</h1>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/ios/50/000000/iphone.png"/>
-            <div class="contact">
-              <h1>Phone</h1>
-              <h2>+1 234 567 8901</h2>
-            </div>
-          </div>
-          </div>
-          <div class="contact-item">
-            <div class="icon"><img src="https://img.icons8.com/external-nawicon-detailed-outline-nawicon/64/000000/external-email-communication-nawicon-detailed-outline-nawicon-2.png"/>
-              <div class="contact">
-                <h1>Email</h1>
-                <h2>zionremnant@gmail.com</h2>
-              </div>
-            </div>
-        </div>
-        </div>
-        </div>
-   </section>
-   <!-- Footer Section --> 
-   <section id="footer">
-     <div class="footer container">
-       <div class="brand">
-         <h1>Zion Yang</h1>
-         <h2>Portfolio</h2>
-         <div class="social-icon">
-           <div class="social-item">
-             <a href="https://github.com/zionremnant"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/></a>
-           </div>
-           <div class="social-item">
-            <a href="https://www.instagram.com/"><img src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"/></a>
-          </div>
-          <div class="social-item">
-            <a href="https://www.youtube.com/"><img src="https://img.icons8.com/ios-glyphs/30/000000/youtube-play.png"/></a>
-          </div>
-          <div class="social-item">
-            <a href="https://www.linkedin.com/"><img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"/></a>
-          </div>
-         </div>
-       </div>
-       <p>Copyright 2022 XYangZion. All rights reserved.</p>
-     </div>
-   </section>
-   <script src="./script.js"></script>
-</body>
+    </nav>
+    <!-- home -->
+  </body>
 </html>

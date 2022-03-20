@@ -83,21 +83,6 @@ a:hover {
   color: darkgoldenrod;
   text-decoration: none;
 }
-i.fa-brands,
-i.fa-solid,
 a {
-  color: white;
-}
-
-i.fa-github:before {
-  color: black;
-}
-i.fa-linkedin:before {
-  color: black;
-}
-i.fa-envelope:before {
-  color: black;
-}
-i.fa-file:before {
-  color: black;
+  color: cornflowerblue;
 }

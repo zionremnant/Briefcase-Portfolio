@@ -14,7 +14,7 @@ Professional materials, including the updated porfolio page and other materials 
 - https://github.com/zionremnant/Briefcase-Portfolio
 - https://zionremnant.github.io/Briefcase-Portfolio/
 - https://www.linkedin.com/in/zion-y-908305203/
-- https://github.com/zionremnant/Professional-Materials-Portfolio-/blob/main/ResumeZionYang.pdf
+- https://github.com/zionremnant/Briefcase-Portfolio/blob/main/ResumeZionYang.pdf
 
 ## Screenshots
 
